@@ -24,7 +24,7 @@ github_username:  dsu-effectiveness
 
 # Build settings
 markdown: kramdown
-remote_theme: chrisrhyme/bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
 
