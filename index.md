@@ -9,6 +9,9 @@ layout: default
 nav_order: 1
 ---
 
-# The Website
+# Office of Institutional Effectiveness
+## Resource Center
+
+### Welcome
 
 This site is designed to facilitate knowledge-sharing and easy access to reference materials for the Dixie State University Office of Institutional Effectiveness.
