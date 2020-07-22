@@ -1,14 +1,14 @@
 ---
-title: DSU Office of Institutional Effectiveness
-subtitle: DataBlaze Resources and Documentation
+title: Home
+#subtitle: DataBlaze Resources and Documentation
 #These are "clean" theme items.
 #layout: page
 #callouts: home_callouts
 #show_sidebar: true
 layout: default
+nav_order: 1
 ---
 
 # The Website
 
-Hello world.
-And Amy.
+This site is designed to facilitate knowledge-sharing and easy access to reference materials for the Dixie State University Office of Institutional Effectiveness.
