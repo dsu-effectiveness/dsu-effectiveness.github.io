@@ -2,10 +2,10 @@
 title: Banner Mnemonics
 subtitle: ""
 #These are "clean" theme items.
-#layout: page
-#callouts: home_callouts
-#show_sidebar: true
-layout: default
+layout: page
+callouts: home_callouts
+show_sidebar: true
+#layout: default
 ---
 
 # Banner Mnemonics
