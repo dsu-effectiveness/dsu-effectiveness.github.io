@@ -25,6 +25,7 @@ github_username:  dsu-effectiveness
 # Build settings
 markdown: kramdown
 #remote_theme: chrisrhymes/bulma-clean-theme
+#theme: bulma-clean-theme
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 plugins:
@@ -33,6 +34,14 @@ plugins:
 #Theme options
 logo: "./assets/d_horizontal_trans.png"
 color_scheme: dsu
+
+aux_links:
+  "DataBlaze":
+    - "http://ir.dixie.edu"
+
+footer_content: "Office of Institutional Effectiveness.  Dixie State University.  St. George, Utah."
+
+# Footer last edited timestamp
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
