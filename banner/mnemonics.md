@@ -10,9 +10,9 @@ layout: default
 
 # Banner Mnemonics
 
-Banner forms and tables are named with a seven-character mnemonic.  These mnemonics employ the following structure.
+Banner forms and tables follow a seven-character naming convention (mnemonic).  These mnemonics employ the following structure.
 
-#### Position 1
+## Position 1
 - ***Primary system*** owning the form/table.
 
 P1 | System                    | P1 | System                    
@@ -28,7 +28,7 @@ K  | Work management           | V  | Voice response
 L  | Occupational license      | X  | Records indexing
 N  | Position control
   
-#### Position 2
+## Position 2
 - ***Module*** owning the form/table.
 - This code is dependent upon the primary system code in position 1.
   
@@ -67,7 +67,7 @@ S  | Student sys. shared data  | U  | Utility                   |    |
 T  | Validation form/table     | X  | Tax administration        |    |
 U  | Utility                   |    |                           |    |
   
-#### Position 3
+## Position 3
 - Specifies the ***type*** of form/table.
 - Generally speaking, a Banner front-end form and back-end data table are related by similar naming, with a different P3 character.
 - In limited instances, the third character "V" also represents a view.
@@ -79,10 +79,10 @@ B  | Base table/batch process  | R  | Rule or repeating table
 I  | Inquiry form              | T  | General maintenance
 O  | Online COBOL process      | V  | Validation form/table
 
-#### Position 4
+## Position 4
 - The remaining positions identify a unique four-character name for the form, report, process, or table.
 
-#### Example
+## Example
 - Table: SCBCRSE
 - ***S*** [Student]
 - ***C*** [Catalog]
