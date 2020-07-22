@@ -25,9 +25,14 @@ github_username:  dsu-effectiveness
 # Build settings
 markdown: kramdown
 #remote_theme: chrisrhymes/bulma-clean-theme
+theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
+
+#Theme options
+logo: "./assets/d_horizontal_trans.png"
+color_scheme: dsu
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -40,3 +45,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
