@@ -79,7 +79,7 @@ B  | Base table/batch process  | R  | Rule or repeating table
 I  | Inquiry form              | T  | General maintenance
 O  | Online COBOL process      | V  | Validation form/table
 
-## Position 4
+## Positions 4-7
 - The remaining positions identify a unique four-character name for the form, report, process, or table.
 
 ## Example
