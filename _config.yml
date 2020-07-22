@@ -1,10 +1,5 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
@@ -24,10 +19,10 @@ github_username:  dsu-effectiveness
 
 # Build settings
 markdown: kramdown
-remote_theme: chrisrhymes/bulma-clean-theme
-theme: bulma-clean-theme
-##theme: just-the-docs
-#remote_theme: pmarsceill/just-the-docs
+#remote_theme: chrisrhymes/bulma-clean-theme
+#theme: bulma-clean-theme
+#theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
@@ -39,7 +34,7 @@ aux_links:
   "DataBlaze":
     - "http://ir.dixie.edu"
 
-footer_content: "Office of Institutional Effectiveness.  Dixie State University.  St. George, Utah."
+footer_content: "Office of Institutional Effectiveness ~ Dixie State University ~ St. George, Utah."
 
 # Footer last edited timestamp
 
