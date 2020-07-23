@@ -19,7 +19,9 @@ layout: default
 
 ## Overview
 
-These guidelines are designed to promote consistent and readable SQL code.  Clear formatting helps code to be more easily interchangeable and understandable among various colleagues.  A DataGrip code template has been created that models most of the guidelines outlined here, although certain manual interventions may still be required.
+These guidelines are designed to promote consistent and readable SQL code.  Clear formatting helps code to be more easily interchangeable and understandable among various colleagues.  "Legibility is one of the ultimate goals of working from a shared codebase, and... individuals who work with a team-oriented mindset produce cleaner, more readable code."[^1]
+
+[^1]: Zenon, A.  (2020).  How to make clean code a priority.  BuiltinATX.  https://www.builtinaustin.com/2020/07/20/prioritizing-clean-code.
 
 ## General
 
