@@ -22,7 +22,7 @@ github_username:  dsu-effectiveness
 #remote_theme: chrisrhymes/bulma-clean-theme
 #theme: bulma-clean-theme
 theme: just-the-docs
-#remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
