@@ -8,8 +8,7 @@ subtitle: ""
 layout: default
 ---
 
-
-## Overview
+# DegreeWorks Data
 
 DegreeWorks is a degree audit tool created by Ellucian.  A degree audit verifies that a student has completed the requirements of their degree program.  An individual audit is comprised of a number of requirement blocks that are taken together and compared to the student's transcript.  DegreeWorks has four main components: (1) Scribe, where requirement blocks are created; (2) Parser Engine, which translates Scribe blocks into a format that can be used for auditing; (3) Auditor Engine, which evaluates student course data against requirement blocks; and (4) Output Engine, which reads audit results and generates an output document.
 
