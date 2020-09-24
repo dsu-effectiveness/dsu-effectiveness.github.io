@@ -56,7 +56,7 @@ dap_number_end   | CHAR (12)     | If requirement is a range, ending course numb
 Note that the course subject and course number fields may also contain the wildcard character, `@`.
 
 
-### dap_req_link_dtl (links one course block to another)
+### Requirement linkages (dap_req_link_dtl)
 
 Relationships can be defined between different requirement blocks, either hierarchically or via an explicit linkage.  A linked block is useful when requirements need repeated in multiple blocks.  `dap_req_link_detail` stores the link from one requirement block to another.  The Auditor Engine uses this table to determine which OTHER blocks to include in a student's degree audit.
 
