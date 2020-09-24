@@ -23,9 +23,9 @@ There are four primary types of tables in DegreeWorks.  The majority of the nece
 - SHP: Security and roles
 - SEP: Student educational planner
 
-### Degree audit process (DAP) tables
+## Degree audit process (DAP) tables
 
-#### Requirement blocks (dap_req_block)
+### Requirement blocks (dap_req_block)
 
 Individual requirement blocks are stored in `dap_req_block`.  Key fields are as follows:
 
@@ -42,7 +42,7 @@ modify_date      | DATE          | The date the block was last modified
 
 Note that the requirement text itself (in the `requirement_text` field) is stored as a character large-object (CLOB) data type.  If you copy and paste the contents of the requirement_text column into a code editor or word processor, you can view the complete text statement.
 
-#### Requirement block course details (dap_req_crs_dtl)
+### Requirement block course details (dap_req_crs_dtl)
 
 When a requirement block is processed, courses found in the block are stored in `dap_req_crs_dtl`.  Key fields are as follows:
 
@@ -56,7 +56,7 @@ dap_number_end   | CHAR (12)     | If requirement is a range, ending course numb
 Note that the course subject and course number fields may also contain the wildcard character, `@`.
 
 
-#### dap_req_link_dtl (links one course block to another)
+### dap_req_link_dtl (links one course block to another)
 
 Relationships can be defined between different requirement blocks, either hierarchically or via an explicit linkage.  A linked block is useful when requirements need repeated in multiple blocks.  `dap_req_link_detail` stores the link from one requirement block to another.  The Auditor Engine uses this table to determine which OTHER blocks to include in a student's degree audit.
 
