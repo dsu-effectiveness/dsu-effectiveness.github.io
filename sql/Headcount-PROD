@@ -1,0 +1,12 @@
+--This query returns the current headcount for an identified term code.
+SELECT sfrstcr_term_code AS termcode,
+       COUNT(DISTINCT a. sfrstcr_pidm) AS student_pidm
+FROM sfrstcr a
+WHERE a.sfrstcr_camp_code <> 'XXX'
+  AND a.sfrstcr_term_code = '202040'
+  AND a.sfrstcr_levl_code = 'UG'
+  AND a.sfrstcr_rsts_code IN
+      (SELECT b.stvrsts_code
+          FROM stvrsts b
+          WHERE b.stvrsts_incl_sect_enrl ='Y')
+GROUP BY a.sfrstcr_term_code;
